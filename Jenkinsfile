@@ -4,9 +4,7 @@ pipeline {
     stage('Deliver') {
       steps {
         sh './start.sh'
-        sh 'ABC'
       }
     }
-
   }
 }
